@@ -76,6 +76,8 @@ body {
   color: #ffffff;
 }
 
+
+
 .heading_container.heading_center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -91,6 +93,17 @@ body {
   font-size: 10vw;
   font-weight: 1000;
 }
+
+.custom_nav-container .navbar-nav .nav-item.active:hover .nav-link {
+  color: #009407;
+  
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover.nav-link{
+  color: #009407;
+}
+
+
 
 a,
 a:hover,
@@ -195,7 +208,7 @@ a:focus {
   transition: all 0.3s;
 }
 
-.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
+.custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #06ce10;
 }
 
@@ -1038,9 +1051,9 @@ a:focus {
   opacity: 0.05;
 }
 .background {
-  width: 100%;
+  width: 70%;
   position: relative;
-  height: 74.2vw;
+  height: 34.2vw;
   overflow: hidden;
   background-image: url('../imgfile/snake/snake.jpg');
   background-size: cover;
@@ -1093,9 +1106,9 @@ a:focus {
   opacity: 0.05;
 }
 .background_ {
-  width: 100%;
+  width: 70%;
   position: relative;
-  height: 74.2vw;
+  height: 34.2vw;
   overflow: hidden;
   background-image: url('../imgfile/lizard/lizard.png');
   background-size: cover;
@@ -1148,9 +1161,9 @@ a:focus {
   opacity: 0.05;
 }
 .background_1 {
-  width: 100%;
+  width: 70%;
   position: relative;
-  height: 74.2vw;
+  height: 34.2vw;
   overflow: hidden;
   background-image: url('../imgfile/turtle/turtle.jpg');
   background-size: cover;
@@ -1203,9 +1216,9 @@ a:focus {
   opacity: 0.05;
 }
 .background_2 {
-  width: 100%;
+  width: 70%;
   position: relative;
-  height: 74.2vw;
+  height: 34.2vw;
   overflow: hidden;
   background-image: url('../imgfile/crocodile/crocodile.png');
   background-size: cover;
